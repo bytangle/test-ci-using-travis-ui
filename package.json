@@ -4,7 +4,7 @@
   "description": "This is a sample repo that uses Travis CI for continuous integration",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Passed fake test\" && exit 0"
+    "test": "echo \"Passed fake test\" && exit 1"
   },
   "repository": {
     "type": "git",
