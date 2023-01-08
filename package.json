@@ -1,0 +1,23 @@
+{
+  "name": "test-ci",
+  "version": "1.0.0",
+  "description": "This is a sample repo that uses Travis CI for continuous integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Passed fake test\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bytangle/test-ci-using-travis-ui.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bytangle/test-ci-using-travis-ui/issues"
+  },
+  "homepage": "https://github.com/bytangle/test-ci-using-travis-ui#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
