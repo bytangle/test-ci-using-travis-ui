@@ -4,7 +4,7 @@
   "description": "This is a sample repo that uses Travis CI for continuous integration",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Passed fake test\" && exit 1"
+    "test": "nyc mocha test"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,12 @@
   },
   "homepage": "https://github.com/bytangle/test-ci-using-travis-ui#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "chai": "^4.3.7",
+    "express": "^4.18.2",
+    "mocha": "^10.2.0",
+    "underscore": "^1.13.6"
+  },
+  "devDependencies": {
+    "nyc": "^15.1.0"
   }
 }

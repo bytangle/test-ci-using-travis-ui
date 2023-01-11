@@ -13,7 +13,7 @@ app.get('/', (_, res) => {
 })
 
 // endpoint to get prepare recipes
-app.get("/recipe/:id", async (req, res) => {
+app.get("/recipes/:id", async (req, res) => {
     let { id } = req.params;
 
     let recipe = new Recipe(id);
